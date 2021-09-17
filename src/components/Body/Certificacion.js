@@ -1,5 +1,5 @@
 import React from "react";
-import certificado1 from '../../imagenes/Diploma.jpg'
+import certificado1 from '../../imagenes/diploma.jpg'
 import certificado2 from '../../imagenes/miPropioJardin.png'
 import certificado3 from '../../imagenes/MiPropiaHuerta.png'
 import certificado4 from '../../imagenes/matematicaElemental.png'
