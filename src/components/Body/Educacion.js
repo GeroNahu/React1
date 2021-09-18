@@ -60,7 +60,7 @@ class ExperiencaLaboral extends React.Component {
               <li className="items2"><label className="label">CARRERA:</label><p className="dato">{estado2c}</p></li>
             </ul>
           </li>
-              <h4 className="subtitulos">CURSOS:</h4>
+              <h5 className="subtitulosEdu">Cursos:</h5>
           <li className="items">
             <ul className="ulContainer">
               <li className="items2"><label className="label">INSTITUCIÓN:</label><p className="dato">{estado3b}</p></li>
@@ -79,7 +79,7 @@ class ExperiencaLaboral extends React.Component {
               <li className="items2"><label className="label">CURSO:</label><p className="dato">{estado5c}</p></li>
             </ul>
           </li>
-          <h4 className="subtitulos">CURSOS ONLINE:</h4>
+          <h5 className="subtitulosEdu">Cursos Online:</h5>
           <li className="items">
             <ul className="ulContainer">
               <li className="items2"><label className="label">INSTITUCIÓN:</label><p className="dato">{estado6b}</p></li>
@@ -104,7 +104,7 @@ class ExperiencaLaboral extends React.Component {
               <li className="items2"><label className="label">CURSO:</label><p className="dato">{estado8c}</p></li>
             </ul>
           </li>
-          <h4 className="subtitulos">CURSOS EN YOUTUBE:</h4>
+          <h5 className="subtitulosEdu">Cursos en Youtube:</h5>
           <li className="items">
             <ul className="ulContainer">
               <li className="items2"><label className="label">YOUTUBER:</label><p className="dato">{estado9b}</p></li>
@@ -141,7 +141,7 @@ class ExperiencaLaboral extends React.Component {
               <li className="items2"><label className="label">CURSO:</label><p className="dato">{estado14c}</p></li>
             </ul>
           </li>
-          <h4 className="subtitulos">AGRO CONFERENCIAS:</h4>
+          <h5 className="subtitulosEdu">Agro Conferencias:</h5>
           <li className="items">
             <ul className="ulContainer">
               <li className="items2"><label className="label">INSTITUCIÓN:</label><p className="dato">{estado8b}</p></li>

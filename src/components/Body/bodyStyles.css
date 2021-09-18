@@ -73,3 +73,76 @@ p {
     font-size: 23px;
     margin-left: 100px;
 }
+.subtitulosEdu{
+    color: rgb(30, 77, 69);
+    font-size: 21px;
+    margin-left: 110px;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* .titulo {
+        color: rgb(54, 117, 107);
+        font-size: 50px;
+        margin-top: 50px;
+        position: relative;
+        text-shadow: 3px 3px 3px #666;
+    } */
+    .imgContainer{
+        display: flex;
+justify-content: center;
+}
+    .img {
+        /* z-index: -1; */
+        width: 25%;
+    }
+    /* .container {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        position: relative;
+    } */
+    /* body{
+        background-color: rgb(180, 196, 196);
+    } */
+    .items{
+        align-items: left;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-weight: bolder;
+        margin: 12px 40px;
+        width: 95%;
+    }
+    .items2{
+        align-items: left;
+        display:flex;
+        flex-direction: column;
+        font-weight: bold;
+        margin: 5px 0;
+        min-height: 50px;
+        text-align: left;
+    }
+    .dato{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: right;
+        width: 92%;
+    }
+    .label {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .subtitulos{
+        color: rgb(57, 145, 130);
+        font-size: 25px;
+        margin-left: 55px;
+    }
+    .subtitulosEdu{
+        color: rgb(30, 77, 69);
+        font-size: 21px;
+        margin-left: 65px;
+    }
+}
