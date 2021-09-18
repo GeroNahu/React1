@@ -6,7 +6,7 @@ class Body extends React.Component {
         return(
         <>
             <h1 className="titulo">Curriculum Vitae</h1>
-            <div>
+            <div className="imgContainer">
                 <img src={fotoCarnet} alt="Profile" className="img"/>
             </div>
             {this.props.children}
