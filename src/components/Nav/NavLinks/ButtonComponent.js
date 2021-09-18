@@ -2,9 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 class Button extends React.Component {
-
     render(){
-        const { datosPersonales, educacion, experienciaLaboral, certificacion, contacto, todosLosDatos } = this.props;
+        const { datosPersonales, educacion, experienciaLaboral, certificacion, contacto, todosLosDatos, } = this.props;
         return (
             <>
                 <Link to="/infocompleta" className="navButtom">{todosLosDatos}</Link>

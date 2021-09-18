@@ -29,18 +29,24 @@
     padding: 4px;
     text-decoration: none;
 }
+.navButtom:hover {
+    color: #bbb;
+}
+.iconoBars {
+    display: none;
+}
+.buttonMenu {
+    display: none;
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 830px) {
 
     .nav {
-        align-items: reverse;
         background-color: #666;
-        display: flex;
-        flex-wrap: wrap;
+        display: block;
         justify-content: flex-end;
-        left: 0;
-        min-height: 4%;
-        padding: 6px 0;
+        height: 5%;
+        padding: 0;
         position: fixed;
         text-align: right;
         top: 0;
@@ -54,13 +60,50 @@
         border: none;
         box-shadow: 3px 3px 5px #222;
         color: #fff;
-        display: flex;
+        display: block;
         font-family: Arial, Helvetica, sans-serif;
         font-size: small;
         height: 15px;
-        margin: 2px 5px;
+        margin: 0;
         min-width: max-content;
         padding: 4px;
+        position: fixed;
         text-decoration: none;
+        top: -1000px;
+    }
+    /* .navButtomResponsive {
+        background-color: rgb(54, 117, 107);
+        border-radius: 5%;
+        border: none;
+        box-shadow: 3px 3px 5px #222;
+        color: #fff;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        height: 15px;
+        margin: 0;
+        min-width: max-content;
+        padding: 4px;
+        position: fixed;
+        text-decoration: none;
+        top: 0;
+    } */
+    .iconoBars {
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin: 4px 8px;
+        width: 40px;
+        z-index: 10;
+    }
+    .buttonMenu {
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin: 4px 8px;
+        width: 40px;
+        z-index: 10;
     }
 }

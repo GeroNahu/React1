@@ -7,17 +7,6 @@ import Contacto from "./Contacto";
 
 class TodosLosDatos extends React.Component {
   render(){
-    const
-      nombre = 'Andrada Cabanillas, Gerónimo Nahuel',
-      dni = '35523981',
-      edad = '31',
-      estadoCivil = 'Soltero',
-      nacimiento = 'Córdoba, 14 de abril de 1990',
-      domicilio = 'León Schneider 3921, Barrio Kennedy',
-      telefono = '+54-0351-15 7598524',
-      mail = 'geronimo.andrada.811@unc.edu.ar',
-      carnet = 'Categoría particular A2,1 - vto 13/06/2023 / Categoría moto B2 - vto 13/06/2023'
-
     return(
       <ul className="container">
         <h4 className="subtitulos">Datos Personales</h4>
