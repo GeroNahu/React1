@@ -1,5 +1,5 @@
 import React from "react";
-import certificado1 from '../../imagenes/diploma.jpg'
+// import certificado1 from '../../imagenes/diploma.jpg'
 import certificado2 from '../../imagenes/miPropioJardin.png'
 import certificado3 from '../../imagenes/MiPropiaHuerta.png'
 import certificado4 from '../../imagenes/matematicaElemental.png'
@@ -18,7 +18,7 @@ import certificado14 from '../../imagenes/II jornada ganado bobino criollo.png'
 const Certificacion = ()=>{
     return(
         <div className="certificadoContainer">
-            <img src={certificado1} alt="Diploma de Secundario" className="certificados"/>
+            {/* <img src={certificado1} alt="Diploma de Secundario" className="certificados"/> */}
             <img src={certificado2} alt="certificado Mi Propio Jardín" className="certificados"/>
             <img src={certificado3} alt="certificado Mi Propia Huerta" className="certificados"/>
             <img src={certificado4} alt="certificado Matemática Elemental para Arquitectos e Ingenieros" className="certificados"/>
