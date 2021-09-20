@@ -1,11 +1,11 @@
 .nav {
-    align-items: reverse;
+    align-items: center;
     background-color: #666;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     left: 0;
-    min-height: 4%;
+    min-height: 2.7%;
     padding: 6px 0;
     position: fixed;
     text-align: right;
@@ -13,7 +13,15 @@
     width: 100%;
     z-index: 1;
 }
-
+.buttonContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2px;
+    height: 15px;
+    padding: 0;
+    width: max-content;
+}
 .navButtom {
     background-color: rgb(54, 117, 107);
     border-radius: 5%;
@@ -53,41 +61,33 @@
         width: 100%;
         z-index: 1;
     }
-
-    .navButtom {
-        background-color: rgb(54, 117, 107);
-        border-radius: 5%;
-        border: none;
-        box-shadow: 3px 3px 5px #222;
-        color: #fff;
-        display: block;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: small;
-        height: 15px;
-        margin: 0;
-        min-width: max-content;
-        padding: 4px;
+    .buttonContainer{
         position: fixed;
-        text-decoration: none;
-        top: -1000px;
     }
-    /* .navButtomResponsive {
+    .buttonContainer.visible{
+        right: 0;
+    }
+    .buttonContainer.oculto{
+        right: -183px;
+    }
+    .navButtom {
+        align-items: flex-start;
         background-color: rgb(54, 117, 107);
         border-radius: 5%;
         border: none;
         box-shadow: 3px 3px 5px #222;
         color: #fff;
-        display: block;
+        display: flex;
+        flex-direction: column;
         font-family: Arial, Helvetica, sans-serif;
         font-size: small;
         height: 15px;
         margin: 0;
         min-width: max-content;
         padding: 4px;
-        position: fixed;
         text-decoration: none;
-        top: 0;
-    } */
+        width: 175px;
+    }
     .iconoBars {
         display: flex;
         position: fixed;
@@ -105,5 +105,11 @@
         margin: 4px 8px;
         width: 30px;
         z-index: 10;
+    }
+    .buttonContainer{
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
     }
 }
