@@ -63,6 +63,7 @@
     }
     .buttonContainer{
         position: fixed;
+        transition: right 0.4s linear;
     }
     .buttonContainer.visible{
         right: 0;
@@ -73,9 +74,9 @@
     .navButtom {
         align-items: flex-start;
         background-color: rgb(54, 117, 107);
-        border-radius: 5%;
+        border-radius: 0;
         border: none;
-        box-shadow: 3px 3px 5px #222;
+        box-shadow: 0 1px 5px #222;
         color: #fff;
         display: flex;
         flex-direction: column;
